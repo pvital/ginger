@@ -109,6 +109,10 @@ messages = {
     "GINNET0070E": _("Gateway information is missing."),
     "GINNET0071E": _("Invalid prefix '%(PREFIX)s'."),
     "GINNET0072E": _("Interface with the name '%(iface)s' already exists ."),
+    "GINNET0073E": _("Interface %(name)s loaded with driver %(module)s does not have an action %(action)s available."),
+    "GINNET0074E": _("SR-IOV action of mlx5 module requires 'num_vfs' argument."),
+    "GINNET0075E": _("SR-IOV enablement failed: required files under /sys directory not found."),
+    "GINNET0076E": _("SR-IOV enablement failed: num_vfs must be an integer."),
 
     "GINUSER0001E": _("Specify name, password, group and profile for the new "
                       "user."),
